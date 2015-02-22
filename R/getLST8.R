@@ -42,7 +42,7 @@
 #' 30_B5: OLI band 5
 #' 30_B6: OLI band 6
 #' 30_B7: OLI band 7
-#' 30_B9: OLI band 9 
+#' 30_B9: OLI band 9
 #' 30_B10: TIRS band 10
 #' 30_B11: TIRS band 11
 #' 30_QA: Quality indicator of the measures
@@ -64,7 +64,7 @@
 #' 30_B9_REFLECTANCE: REFLECTANCE (TOA) for band 9
 #' 30_B10_TEMPERATURE: BRIGHTNESS TEMPERATURE (TOA) for band 11
 #' 30_B11_TEMPERATURE: BRIGHTNESS TEMPERATURE (TOA) for band 12
-#' 
+
 
 getLST8  <- function(dir, geometry){
     
