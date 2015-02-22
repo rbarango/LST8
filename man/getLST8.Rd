@@ -15,7 +15,7 @@ getLST8(dir, geometry)
 \code{getLST8} Process Level 1 GeoTIFF Data Product of Landsat 8 and converts
 to REFLECTANCE TOA, RADIANCE TOA and BRIGHTNESS TEMPERATURE.
 
-# Parameters
+# Params
 }
 \details{
 The procedure considers as input (1) the folder where the GEOTIF data products are
