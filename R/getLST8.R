@@ -6,7 +6,7 @@
 #' @keywords Landsat8 OLI TIRS TOA
 #'
 #' @title
-#' TOA and BRIGHTNESS TEMPERATURE converter for Landsat 8
+#' Retrieves OLI & TIRS raw values and calculates TOA and BRIGHTNESS TEMPERATURE
 #' 
 #' @description
 #' \code{getLST8} Process Level 1 GeoTIFF Data Product of Landsat 8 and converts
@@ -14,7 +14,7 @@
 #' 
 #' # Parameters
 #' @param dir The folder or directory where the Landsat 8 GEOTIF files are stored.
-#' @param geometry TA geometry object of the geografical zone to retrieve the data from.
+#' @param geometry The geometry object of the geografical zone to retrieve the data from.
 #' 
 #' @details
 #' The procedure considers as input (1) the folder where the GEOTIF data products are

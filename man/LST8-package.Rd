@@ -3,11 +3,11 @@
 \alias{LST8}
 \docType{package}
 \title{
-What the package does (short line)
+Groups some functions to work with data products of Landsat 8 satellite
 ~~ package title ~~
 }
 \description{
-More about what it does (maybe more than one line)
+Currently includes the function getLST8 for retrieving OLI & TIRS raw values from Landsat 8 data product and calculates TOA and BRIGHTNESS TEMPERATURE
 ~~ A concise (1-5 lines) description of the package ~~
 }
 \details{
@@ -16,14 +16,14 @@ Package: \tab LST8\cr
 Type: \tab Package\cr
 Version: \tab 1.0\cr
 Date: \tab 2015-02-22\cr
-License: \tab What license is it under?\cr
+License: \tab GPL-3\cr
 }
 ~~ An overview of how to use the package, including the most important functions ~~
 }
 \author{
-Who wrote it
+Rodolfo de Benito Arango
 
-Maintainer: Who to complain to <yourfault@somewhere.net>
+Maintainer: Rodolfo de Benito Arango <rbarango@gmail.com>
 ~~ The author and/or maintainer of the package ~~
 }
 \references{

@@ -2,14 +2,14 @@
 % Please edit documentation in R/getLST8.R
 \name{getLST8}
 \alias{getLST8}
-\title{TOA and BRIGHTNESS TEMPERATURE converter for Landsat 8}
+\title{Retrieves OLI & TIRS raw values and calculates TOA and BRIGHTNESS TEMPERATURE}
 \usage{
 getLST8(dir, geometry)
 }
 \arguments{
 \item{dir}{The folder or directory where the Landsat 8 GEOTIF files are stored.}
 
-\item{geometry}{TA geometry object of the geografical zone to retrieve the data from.}
+\item{geometry}{The geometry object of the geografical zone to retrieve the data from.}
 }
 \description{
 \code{getLST8} Process Level 1 GeoTIFF Data Product of Landsat 8 and converts
