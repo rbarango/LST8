@@ -221,12 +221,10 @@ getLST8  <- function(dir, geometry){
         
         for (n in values(B1)){
             dateList  <- rbind(dateList,day)
+            crs_proj  <- rbind(crs_proj, lst8_proj)
         }
     }
     
-    for (n in S_B1){
-        crs_proj  <- rbind(crs_proj, lst8_proj)
-    }
     df.sur_refl <- suppressWarnings(data.frame(coordinates=coordinates, crs_proj, date=dateList, b1=S_B1, 
                               B2=S_B2, B3=S_B3, B4=S_B4,
                               B5=S_B5, B6=S_B6, B7=S_B7,
