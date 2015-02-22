@@ -12,7 +12,6 @@
 #' \code{getLST8} Process Level 1 GeoTIFF Data Product of Landsat 8 and converts
 #' to REFLECTANCE TOA, RADIANCE TOA and BRIGHTNESS TEMPERATURE.
 #' 
-#' # Params
 #' @param dir The folder or directory where the Landsat 8 GEOTIF files are stored.
 #' @param geometry The geometry object of the geografical zone to retrieve the data from.
 #' 
