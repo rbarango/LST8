@@ -63,7 +63,7 @@
 #' 30_B9_REFLECTANCE: REFLECTANCE (TOA) for band 9
 #' 30_B10_TEMPERATURE: BRIGHTNESS TEMPERATURE (TOA) for band 11
 #' 30_B11_TEMPERATURE: BRIGHTNESS TEMPERATURE (TOA) for band 12
-#' 
+
 
 getLST8  <- function(dir, geometry){
     
