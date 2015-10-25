@@ -2,7 +2,7 @@
 % Please edit documentation in R/getLST8.R
 \name{getLST8}
 \alias{getLST8}
-\title{Retrieves OLI & TIRS raw values and calculates TOA and BRIGHTNESS TEMPERATURE}
+\title{Retrieves OLI & TIRS raw values and calculates REFLECTANCE TOA, RADIANCE TOA and BRIGHTNESS TEMPERATURE}
 \usage{
 getLST8(dir, geometry)
 }
