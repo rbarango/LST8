@@ -9,7 +9,7 @@ getLST8(dir, geometry)
 \arguments{
 \item{dir}{The folder or directory where the Landsat 8 GEOTIF files are stored.}
 
-\item{geometry}{The geometry object of the geografical zone to retrieve the data from.}
+\item{geometry}{The geometry object of the geographical zone to retrieve the data from.}
 }
 \description{
 \code{getLST8} Process Level 1 GeoTIFF Data Product of Landsat 8 and converts
