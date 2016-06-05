@@ -18,7 +18,7 @@
 #' @details
 #' The procedure considers as input (1) the folder where the GEOTIF data products are
 #' stored taking into account that each data product must be decompress in one folder 
-#' and (2) a geometry object corresponding to the geografical zone to retrieve the data from
+#' and (2) a geometry object corresponding to the geographical zone to retrieve the data from
 #'  (for instance a SpatialPolygonsDataFrame)
 #' The output of this procedure is a CSV file including the spatial data points of the extent with the
 #' raw data of the OLI (Band B8 panchromatic is not included) and TIRS bands and their corresponding reflectance 
