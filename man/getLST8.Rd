@@ -25,7 +25,7 @@ raw data of the OLI (Band B8 panchromatic is not included) and TIRS bands and th
 and radiance TOA values for the spectral bands and, for thermal bands, their brightness temperature.
 The name of the CSV file is LST8_startDate_endDate.
 This procedure has dependences on rgdal, raster and sp R packages.
-The procedure do not download the data products. The data products can be downloaded from
+The procedure does not download the data products. The data products can be downloaded from
 http://earthexplorer.usgs.gov/
 
 The structure of the CSV file is the following:
